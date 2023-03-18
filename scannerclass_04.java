@@ -6,6 +6,6 @@ class scannerclass_04 {
         Scanner sc = new Scanner(System.in);
         String name = sc.next(); // input tony stark print tony
         // String name1 = sc.nextLine(); // input tony start print tony stark
-        System.out.print(name1);
+        System.out.print(name);
     }
 }
