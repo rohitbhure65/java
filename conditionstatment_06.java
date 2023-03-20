@@ -6,7 +6,7 @@ public class conditionstatment_06 {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
 
-        // if else conditional statements 
+        // if else conditional statements
         if (x % 2 == 0) {
             System.out.println("even");
         } else {
@@ -14,28 +14,28 @@ public class conditionstatment_06 {
         }
 
         // if else if conditional statements
-        if(x >= 4){
+        if (x >= 4) {
             System.out.println("value of x is grater the 4");
-        }
-        else if(x <= 4){
+        } else if (x <= 4) {
             System.out.println("value of x is smaller then 4");
-        }
-        else {
+        } else {
             System.out.println("nothing");
         }
 
         int button = sc.nextInt();
 
         // switch conditional statement
-        switch(button){
-            case 1 : System.out.print("you enter 1");
-            break;
-            case 2 : {
+        switch (button) {
+            case 1:
+                System.out.print("you enter 1");
+                break;
+            case 2: {
                 System.out.println("you enter 2");
                 System.out.println("how much you learned java :) hehe..");
             }
-            break;
-            default : System.out.println("invalid");
+                break;
+            default:
+                System.out.println("invalid");
         }
     }
 }
