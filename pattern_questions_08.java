@@ -23,7 +23,7 @@ public class pattern_questions_08{
         }
         */
 
-        // Q.2 FOR HOLLOW RECTANGLE
+        /* Q.2 FOR HOLLOW RECTANGLE
         // outer loop
         for(int i = 1; i <= n; i++){
             // innter loop
@@ -37,6 +37,7 @@ public class pattern_questions_08{
             }
         }
         System.out.println();
-    }   
-}
+       }
+       */   
+    }
 }
