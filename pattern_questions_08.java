@@ -23,13 +23,13 @@ public class pattern_questions_08{
         }
         */
 
-        /* Q.2 FOR HOLLOW RECTANGLE
+        /*Q.2 FOR HOLLOW RECTANGLE
         // outer loop
         for(int i = 1; i <= n; i++){
             // innter loop
             for(int j = 1; j <= m; j++){
             // cell -> (i,j)
-            if(i==1 || j==1 || i==n || i==m){
+            if(i==1 || j==1 || i==n || j==m){
                 System.out.print("*");
             } 
             else {
@@ -38,6 +38,6 @@ public class pattern_questions_08{
         }
         System.out.println();
        }
-       */   
+       */
     }
 }
