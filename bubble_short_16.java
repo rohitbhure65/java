@@ -12,6 +12,7 @@ public class bubble_short_16 {
     // unsorted array
     int arr[] = { 4, 2, 89, 45, 3, 76, 53, 86 };
 
+    // time complexity = 0(n^2) 
     // Bubble Sort
     for (int i = 0; i < arr.length - 1; i++) {
       for (int j = 0; j < arr.length - i - 1; j++) {
